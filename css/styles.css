@@ -1,0 +1,82 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+
+/* Frontend Mentor Attribution */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* Colors */
+:root{
+    --softBlue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --mainBg:hsl(217, 54%, 11%);
+    --cardBg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+}
+
+/* Utilities */
+.mainBg{
+    background-color:hsl(217, 54%, 11%) ;
+}
+.cardBg{
+    background-color: hsl(216, 50%, 16%);
+}
+.line{
+    background-color: hsl(215, 32%, 27%);
+}
+.flex{
+    display:flex;
+}
+.padding{
+    padding: 0 1em;
+}
+
+/* Styles */
+
+.wrapper{
+    font-family: "Outfit", sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:  var(--softBlue);
+}
+.container{
+  width:85%;
+  border-radius: 1em;
+  max-width: 375px;
+}
+.avatar{
+    width: 15%;
+}
+.main-img{
+    padding: 1em;
+    border-radius: 2em;
+}
+.headline{
+    font-size: 1.5rem;
+    color:white;
+}
+.sub-headline{
+
+    font-weight: 300;
+    margin: 1em 0;  
+}
+.section1{
+    justify-content: space-between;
+}
+.section2{
+    gap: 1em;
+    align-items: center;
+    padding-bottom: 1em;
+}
+span{
+    color:white;
+}
+.div{
+  gap: .2em;
+}
+
+
